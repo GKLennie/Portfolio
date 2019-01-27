@@ -1,3 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 body {
+    font-family: 'Montserrat', sans-serif;
     background: #191919;
+}
+
+#navbar {
+    margin: -8px;
+    background-color: #0D0D0D;
+    height: 80px;
+    max-height: 80px;
+}
+
+#navbar img {
+    padding: 15px;
+    max-width: 94.44px;
+    max-height: 50px;
+}
+
+#navbar a {
+    transition: 0.2s;
+    padding: 30px 40px;
+    float: right;
+    text-decoration: none;
+    color: white;
+}
+
+#navbar a:hover {
+    transition: 0.2s;
+    color: black;
+    background-color: #ffffff;
+}
+
+#navbar a.active {
+    color: #42ECE1;
+}
+
+#navbar a.active:hover {
+    background-color: #42ECE1;
+    color: black;
 }
