@@ -3,7 +3,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
     background: #191919;
-    background-image: url('./images/ski.svg/');
 }
 
 #navbar {
@@ -43,9 +42,13 @@ body {
 }
 
 #iContainer {
+    margin: -8px;
     width: 100%;
-    height: 100%;
-    background-image: url('./images/ski.svg');
+    height: 100vh;
+    background-image: url('../images/ski.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: -50px;
 }
 
 #info {
