@@ -1,69 +1,40 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-body {
+html {
     font-family: 'Montserrat', sans-serif;
-    background: #191919;
 }
 
-#navbar {
-    margin: -8px;
-    background-color: #0D0D0D;
-    height: 80px;
-    max-height: 80px;
+nav {
+    background-color: #212121;
+    border: 0px solid white;
 }
 
-#navbar img {
-    padding: 15px;
-    max-width: 94.44px;
-    max-height: 50px;
+.brand-logo img {
+    padding-left: 20px !important;
+    position: relative;
+    top: 7px;
 }
 
-#navbar a {
-    transition: 0.2s;
-    padding: 30px 40px;
-    float: right;
-    text-decoration: none;
-    color: white;
+body {
+    background-color: #252525;
 }
 
-#navbar a:hover {
-    transition: 0.2s;
-    color: black;
-    background-color: #ffffff;
+.sidenav {
+    background-color: #252525;
 }
 
-#navbar a.active {
-    color: #42ECE1;
+.sidenav a {
+    border-bottom: 0.1px solid white;
+    color: white !important;
 }
 
-#navbar a.active:hover {
-    background-color: #42ECE1;
-    color: black;
-}
-
-#iContainer {
-    margin: -8px;
-    width: 100%;
-    height: 100vh;
-    background-image: url('../images/ski.svg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position-x: -50px;
-}
-
-#info {
-    color: white;
-    font-size: 32px;
-    font-weight: 500;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+.content {
+    color: #fff;
     text-align: center;
+    padding-top: 40px;
 }
 
-#info img {
-    margin-top: 100px;
-    width: 609px;
-    height: 442px;
+.content p {
+    font-size: 1.2em;
+    font-weight: 400;
 }
